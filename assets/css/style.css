@@ -4,15 +4,27 @@ body {
 
 img{
     width: 200px;
-    height: 200px;
+    height: 180px;
 }
 header {
-    background-color: #4aaaa5;
-    color: #777777;
-    border: 10px;
-    border-color: #cccccc;
+    margin-top: 10px;
+}
+
+header h1 {
+        float: left;
+}
+
+header ul {
+    float: right;
+}
+header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 10px;
 }
 .container {
+    clear: both;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
