@@ -45,6 +45,7 @@ header h1 {
         padding: 20px;
         width: 300px;
         font-family: 'Georgia', 'Times New Roman', Times, serif;
+        color: #ffffff;
 }
 
 header ul {
@@ -107,7 +108,22 @@ header ul li a {
 form label {
     display: block;
 }
-
+input {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+}
+.button {
+    background: #4aaaa5;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    vertical-align: center;
+    color: #ffffff;
+    border: none;
+}
 .clearfix {
     overflow: auto;
 }
@@ -125,6 +141,8 @@ form label {
     width: 400px;
     background: #4aaaa5;
     text-align: center;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #ffffff;
     
 }
 
